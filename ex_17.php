@@ -6,4 +6,11 @@ function get_array_key($arr, $k) {
         }
     }
 }
+
+$arr = array (
+    "dd" => "ss",
+    "zz" => "dd"
+);
+
+echo get_array_key($arr, "dd");
 ?>
