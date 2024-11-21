@@ -6,15 +6,4 @@ function print_double_array($darr) {
         }
     }
 }
-
-$darr = array(
-    array(
-        1,2,3,4
-    ),
-    array(
-        "cc","cv","tfq"
-    )
-);
-
-print_double_array($darr);
 ?>
