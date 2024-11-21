@@ -1,14 +1,14 @@
 <?php
-function break_cat() {
+function continue_cat() {
     $verif = true;
     while($verif) {
         $var = trim ( fgets ( STDIN ) );
-        if ($var == 'EOF')
+        echo "$var";
+        if ($var != 'EOF')
         {
             continue;
         }
-        echo "$var";
+        $verif = false;
     }   
 }
-break_cat();
 ?>
