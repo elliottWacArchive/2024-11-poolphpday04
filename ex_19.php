@@ -5,7 +5,7 @@ function break_cat() {
         $var = trim ( fgets ( STDIN ) );
         if ($var == 'EOF')
         {
-            $verif = false;
+            break;
         }
         echo "$var";
     }   
