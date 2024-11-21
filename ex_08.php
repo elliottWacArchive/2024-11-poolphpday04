@@ -1,10 +1,8 @@
 <?php
 function print_array_with_key($my_array) {
     $i = 0;
-    foreach($my_array as $val) {
-        echo "$i : ";
-        echo "$val\n";
-        $i++;
+    foreach($my_array as $key => $val) {
+        echo "$key : $val\n";
     }
 }
 ?>
