@@ -17,7 +17,7 @@ function print_film_from_nbr($nbr) {
             echo "l'homme invisible\n";
             break;
         default:
-            echo "$nbr\n";
+            echo "Je ne connais pas.\n";
             break;
     }
 }
