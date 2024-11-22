@@ -1,10 +1,11 @@
 <?php
 function continue_cat() {
     $verif = true;
+    $fp = fopen("php://stdin", "r");
     while($verif) {
-        $var = trim ( fgets ( STDIN ) );
-        echo "$var";
-        if ($var != 'EOF')
+        $fr = fgets($fp);
+        echo "$fr";
+        if ($fr != "EOF\n")
         {
             continue;
         }
